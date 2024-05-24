@@ -5,9 +5,9 @@ let id = 0
 
 const newTodo = ref('')
 const todos = ref([
-    { id: id++, text: 'Lern HTML'},
-    { id: id++, text: 'Lern JavaScript'},
-    { id: id++, text: 'Lern Vue'},
+    { id: id++, text: 'Learn HTML'},
+    { id: id++, text: 'Learn JavaScript'},
+    { id: id++, text: 'Learn Vue'},
     ])
 
 function addTodo(){
